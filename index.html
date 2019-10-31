@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的網頁</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/drinkLogo.png" alt="logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">菜單</a></li>
+                        <li><a href="#video" class="nav-link">廣告</a></li>
+                        <li><a href="#creative" class="nav-link">創意飲品</a></li>
+                        <li><a href="#activity" class="nav-link">活動</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/menu.jpg" alt="">
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/B28PutZefiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                創意飲品
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="images/fruit1.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-text">粉紅好喝</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="images/fruit2.jpg">
+                            <div class="card-title-wrap">
+                                
+                                <span class="card-text">沁涼痛快</span>
+                            
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/fruit3.jpg">
+                            <div class="card-title-wrap">
+                               
+                                <span class="card-text">橙溢滿滿</span>
+                            </div>
+                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/photo.jpg">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/photo2.jpg">
+                </div>
+               
+                <div class="col-md-4">
+                    <img src="images/photo3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">關於大苑子：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">認識我們</th>
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">卡友制度</th>
+                              
+                            </tr>
+                            <tr>
+                                <th scope="row">加盟資訊</th>
+                               
+                            </tr>
+                            <tr>
+                                <th scope="row">最新刊物</th>
+                               
+                            </tr>
+                         
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                      
+                        <ul class="standard_use">
+                           <div >
+                               <img src="images/photo4.jpg" >
+                           </div>
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/menu.jpg">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：0800-393998</li>
+                        <li>服務時間：週一 ~ 週五
+                            09:00 ~ 12:00
+                            13:30 ~ 17:30</li>
+                        <li>服務信箱：service@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>2019 All rights reserved by 大苑子 ｜Powered by PVD PLUS</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
